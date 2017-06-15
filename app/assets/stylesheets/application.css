@@ -1,0 +1,63 @@
+/*
+ *= require_tree .
+ *= require_self
+ */
+header{
+  width: 100%;
+  height: 56px;
+  padding-top: 21px;
+  border-bottom: solid 1px #dbdbdb;
+}
+.navigation{
+  width: 1010px;
+  height: 35px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.logo{
+  flex: 1;
+  width: 176px;
+  height: 100%;
+}
+
+.logo img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.search{
+  flex: 1;
+  height: 100%;
+  position: relative;
+}
+.search input{
+  height: 26px;
+  padding: 0;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  font-size: 14px;
+  color: #262626;
+  padding: 3px 10px 3px 28px;
+}
+
+.search div{
+  width: 25px;
+  height: 25px;
+  top: 5px;
+  left: 1px;
+  background-image: url(search.png);
+  background-size: cover;
+  position: absolute;
+}
+.icons{
+  height: 100%;
+}
+.icons a{
+  width: 24px;
+  height: 24px;
+}
+.explore{
+  background-image: url(sprites.png);
+  background-position: -139px -289px;
+}
